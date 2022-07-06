@@ -1,0 +1,24 @@
+header{
+    background-color: blueviolet;
+}
+main{
+    background-color: aqua;
+}
+#evento1{
+    background-color: chocolate;
+}
+#evento2{
+    background-color: chartreuse;
+}
+#evento3{
+    background-color:darkred;
+}
+h3{
+    background-color: darkgrey;
+}
+footer{
+    background-color:darkgreen;
+}
+.fa{
+    /*color cambiar*/
+}
