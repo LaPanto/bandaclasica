@@ -29,17 +29,42 @@ main{
     justify-content: center;
     align-items: center;
 }
+h1{ 
+    
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    
+    /*cambiar de letra*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 40px;
+}
+h2{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+
+    font-weight: lighter;
+    
+    
+}
 h3{
     width: 100%;
+   
     text-align: center;
+    /*cambiar letra del titulo*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 25px;
 }
 #evento1{
     /*posicion*/
     display: flex;
     /*dimensiones*/
-    width: 33%;
+    width: 30%;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
     
 }
 #evento2{
@@ -47,44 +72,47 @@ h3{
     display: flex;
    
     /*dimensiones*/
-    width: 33%;
+    width: 30%;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 #evento3{
     /*posicion*/
     display: flex;
     flex-wrap: wrap;
     /*dimensiones*/
-    width: 33%; 
+    width: 30%; 
     height: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
      
 }
 footer{
+    /*dimensiones*/
     width: 100%;
-    height: 50px;
+    height: 60px;
     padding: 0px 200 px;
-
+    /*posicion*/
     display: flex;
     justify-content:space-around;
     align-items: center;
 
 }
 .fa {
+    /*posicion*/
     display: flex;
     justify-content: center;
     align-items: center;
-
+    /*dimensiones*/
     padding: 20px;
-    font-size: 50px;
-    width: 100px;
-    height: 100px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
 
     border-radius: 50%;
     text-decoration: none;
     margin: 5px 2px;
-    /*falta cambiar colores*/
+    
   }
 
   

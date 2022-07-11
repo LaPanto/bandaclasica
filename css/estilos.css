@@ -13,6 +13,7 @@ main{
 #evento3{
     background-color:darkred;
 }
+
 h3{
     background-color: darkgrey;
 }
@@ -20,5 +21,6 @@ footer{
     background-color:darkgreen;
 }
 .fa{
-    /*color cambiar*/
+    background-color: white;
+    color:crimson;
 }
